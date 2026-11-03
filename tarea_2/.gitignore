@@ -1,0 +1,14 @@
+datos/raw/
+modelos/*.safetensors
+modelos/*.bin
+modelos/checkpoint-*/
+*.wav
+*.mp3
+*.m4a
+*.mp4
+!datos/ejemplos/*.mp3
+.env
+.venv/
+__pycache__/
+.ipynb_checkpoints/
+.DS_Store
